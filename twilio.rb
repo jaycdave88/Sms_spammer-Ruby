@@ -5,7 +5,7 @@ number_of_times=gets.chomp.to_i
 
 array_of_facts = File.readlines("./db/Quotes.txt")
 
-accountSID = "AC24a2e456476dbd54dd7b1eaa135c87ad"
+accountSID = ""
 authToken = "[ADD YOUR OWN AUTH TOKEN]"
 
 @client = Twilio::REST::Client.new accountSID, authToken
